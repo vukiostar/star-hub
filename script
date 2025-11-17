@@ -1,0 +1,3020 @@
+local Luna = loadstring(game:HttpGet("https://raw.nebulasoftworks.xyz/luna", true))()
+
+local Window = Luna:CreateWindow({
+	Name = "Star Hub", -- This Is Title Of Your Window
+	LogoID = "82795327169782", -- The Asset ID of your logo. Set to nil if you do not have a logo for Luna to use.
+	LoadingEnabled = true, -- Whether to enable the loading animation. Set to false if you do not want the loading screen or have your own custom one.
+	LoadingTitle = "Star Hub", -- Header for loading screen
+	LoadingSubtitle = "by VukioStar", -- Subtitle for loading screen
+	ConfigSettings = {
+		ConfigFolder = "Big Hub" -- The Name Of The Folder Where Luna Will Store Configs For This Script. DO NOT ADD A SLASH
+	},
+	KeySystem = true, -- As Of Beta 6, Luna Has officially Implemented A Key System!
+	KeySettings = {
+		Title = "Star Hub Key",
+		Subtitle = "Key System",
+		Note = "nuh uh",
+		SaveInRoot = false, -- Enabling will save the key in your RootFolder (YOU MUST HAVE ONE BEFORE ENABLING THIS OPTION)
+		SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+		Key = {
+			"vukiostar"
+		}, -- List of keys that will be accepted by the system, please use a system like Pelican or Luarmor that provide key strings based on your HWID since putting a simple string is very easy to bypass
+		SecondAction = {
+			Enabled = false, -- Set to false if you do not want a second action,
+			Type = "Link", -- Link / Discord.
+			Parameter = "" -- If Type is Discord, then put your invite link (DO NOT PUT DISCORD.GG/). Else, put the full link of your key system here.
+		}
+	}
+})
+
+local Tab = Window:CreateTab({
+	Name = "Universal Scripts",
+	Icon = "view_in_ar",
+	ImageSource = "Material",
+	ShowTitle = true -- This will determine whether the big header text in the tab will show
+})
+
+Tab:CreateSection("Admin Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "Infinite Yield",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()-- The function that takes place when the button is pressed
+	end
+})
+
+local Button = Tab:CreateButton({
+	Name = "Nameless Admin",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()-- The function that takes place when the button is pressed
+	end
+})
+
+local Button = Tab:CreateButton({
+	Name = "Fates Admin",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();-- The function that takes place when the button is pressed
+	end
+})
+
+local Button = Tab:CreateButton({
+	Name = "Xyra Admin [broken]",
+	Callback = function()
+		loadstring(game:HttpGet("https://xyra.lovable.app/XyraAdmin.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+local Button = Tab:CreateButton({
+	Name = "WinterTime Admin Panel [old asf]",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nosssa/NossLock/main/WinterTime"))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("FE Trolling Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "Masturbation [R6 + R15]",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))("Spider Script")-- The function that takes place when the button is pressed
+	end
+})
+
+local Button = Tab:CreateButton({
+	Name = "Ultimate Trolling GUI",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastefy.app/rmdi1m55/raw"))()-- The function that takes place when the button is pressed
+	end
+})
+
+local Button = Tab:CreateButton({
+	Name = "Super Dual Rings v7",
+	Callback = function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Super-dual-ring-parts-V7-36699"))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Useful")
+
+local Button = Tab:CreateButton({
+	Name = "Ingame Script Searcher",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/madonchik123/USL/main/main.lua"))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+local Button = Tab:CreateButton({
+	Name = "MORE WILL COME SOON!",
+	Callback = function()
+        -- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Chat Bypass")
+
+local Button = Tab:CreateButton({
+	Name = "BetterBypasser [chat bypass]",
+	Callback = function()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Synergy-Networks/products/main/BetterBypasser/loader.lua"))()-- The function that takes place when the button is pressed
+	end
+})
+
+
+
+Tab:CreateDivider()
+
+local Button = Tab:CreateButton({
+	Name = "MORE WILL COME SOON!",
+	Callback = function()
+        -- The function that takes place when the button is pressed
+	end
+})
+
+local Tab = Window:CreateTab({
+	Name = "Roblox Game Scripts",
+	Icon = "view_in_ar",
+	ImageSource = "Material",
+	ShowTitle = true -- This will determine whether the big header text in the tab will show
+})
+
+Tab:CreateSection("Apocalypse Rising")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("+1 Slayer Blade")
+
+local Button = Tab:CreateButton({
+	Name = "Cute Hub",
+	Description = "Requires Key",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/quteeeee/etuchub/refs/heads/main/Cute%20Hub"))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("+1 Speed Maze")
+
+local Button = Tab:CreateButton({
+	Name = "Great Script",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/SpeedMaze"))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("100 Player Slippery Stairs")
+
+local Button = Tab:CreateButton({
+	Name = "Push, Teleport, Click, and Fly",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/cool83birdcarfly02six/100-Player-Slippery-Stairs/refs/heads/main/README.md'))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("100 Players Musical Chairs")
+
+local Button = Tab:CreateButton({
+	Name = "Purhcase Items GUI",
+	Callback = function()
+		local library = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Ordyyx/100PMC/refs/heads/main/shadowlibbackup"))()
+		local Main = library:CreateWindow("Main", "Crimson")
+		local tab = Main:CreateTab("Cheats")
+		tab:CreateButton("Auto-Farm", function()
+			while true do
+				game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("CoinGrab"):FireServer()
+				wait()
+			end
+		end)
+		tab:CreateDropdown("Store", {
+			"PlaceableChair",
+			"ChairDestroyer",
+			"ForceFieldPotion",
+			"TeleportGun",
+			"FreezeRay"
+		}, function(a)
+			local args = {
+				[1] = a
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("PlayerBuysTool"):InvokeServer(unpack(args))
+		end)
+		tab:Show()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("2 Player Battle Tycoon")
+
+local Button = Tab:CreateButton({
+	Name = "Kill All",
+	Callback = function()
+		local players = game:GetService("Players")
+		local local_player = players.LocalPlayer
+		getgenv().settings = {
+			swing_aura = true,
+			max_distance = 9e9
+		}
+		if settings.swing_aura then
+			repeat
+				local targets = {}
+				for _, v in next, players:GetPlayers() do
+					if v ~= local_player and local_player.Character and v.Character and v.Character:FindFirstChild("Humanoid") and v.Character.Humanoid.Health > 0 and (v.Character:GetPivot().Position - local_player.Character:GetPivot().Position).Magnitude < settings.max_distance then
+						table.insert(targets, v.Character)
+					end
+				end
+				for _, v2 in next, targets do
+					local tool = local_player.Character and local_player.Character:FindFirstChildOfClass("Tool")
+					if tool and tool:FindFirstChild("Handle") and v2:FindFirstChildWhichIsA("BasePart") then
+						tool:FindFirstChild("Use"):FireServer()
+						firetouchinterest(tool.Handle, v2:FindFirstChildWhichIsA("BasePart"), 0)
+						firetouchinterest(tool.Handle, v2:FindFirstChildWhichIsA("BasePart"), 1)
+						task.wait()
+					end
+				end
+				task.wait()
+			until not settings.swing_aura
+		end-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("2 Player Steal Brainrot")
+
+local Button = Tab:CreateButton({
+	Name = "Instant Steal Brainrots",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/checkurasshole/Script/refs/heads/main/IQ'))();-- The function that takes place when the button is pressed
+	end
+})
+
+local Button = Tab:CreateButton({
+	Name = "Silentscripts Keyless",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastefy.app/D6QeJh1w/raw", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("3008")
+
+local Button = Tab:CreateButton({
+	Name = "Frag CC",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GabiPizdosu/MyScripts/refs/heads/main/Loader.lua",true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("7 Days To Live")
+
+local Button = Tab:CreateButton({
+	Name = "ESP Deer & Scp's",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/6wZrkPaa"))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("99 Nights in the Forest")
+
+local Button = Tab:CreateButton({
+	Name = "Flash Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastefy.app/nvIx50fc/raw"))()-- The function that takes place when the button is pressed
+	end
+})
+
+local Button = Tab:CreateButton({
+	Name = "Vape Voidware",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/joelmadasilvademorais-glitch/Fffgy/refs/heads/main/99%20noites%20na%20floresta%20VapeVoidware"))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("A Universal Time")
+
+local Button = Tab:CreateButton({
+	Name = "Autofarm",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/Scripts2025/refs/heads/main/AUniversalTim"))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("A Bizarre Adventure")
+
+local Button = Tab:CreateButton({
+	Name = "no script as of now",
+	Callback = function()
+		print("no script as of now")-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Ability Wars")
+
+local Button = Tab:CreateButton({
+	Name = "Galaxies Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/d77d7e53b5f3c4070af76192a6524f8e6c08dd898eefe9ec6abed03e8d7d6ed0/download"))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Adopt Me")
+
+local Button = Tab:CreateButton({
+	Name = "ReQiuYTPL Hub",
+	Callback = function()
+		loadstring(game:HttpGet('https://gitfront.io/r/ReQiuYTPL/wFUydaK74uGx/hub/raw/ReQiuYTPLHub.lua'))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("A Wolf Or Other")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("AimBlox")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Airport Tycoon")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("All Star Tower Defense X")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Animal Attack")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Animal Sim: Underwater")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Animal Simulator")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Anime Arise Evolution")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Anime Dungeon Fighters")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Anime Kingdom Simulator")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Anime Power")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Anime Rangers X")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Anime Revolution X")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Anime Saga")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Anime Shadow 2")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Anime Simulator")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Anime Slashing Simulator")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Anime Souls Simulator X")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Anime Spirits")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Anime Strike Simulator")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Anime Training RNG")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Anime Vanguards")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Answer Or Die")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Ant War")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Aqua Racer")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Arcane Conquest")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Arise Crossover")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Arm Wrestle Simulator")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Army Roads")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Arsenal")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Attack on Titan Revolution")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("a dusty trip")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Avatar Fighting Simulator")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Azure Latch")
+
+local Button = Tab:CreateButton({
+	Name = "AR2 Script Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Klinac/scripts/main/ar2.lua", true))()-- The function that takes place when the button is pressed
+	end
+})
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Build A Plane")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Build A Car")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Build A Zoo")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Build A Tower")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("BIG Paintball 2!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("BRAINROT MORPHS")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Baddies")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Bad Business : FPS")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("BARRY'S PRISON RUN!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Backpacking")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Be A Parkour Ninja")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Be Crushed by a Speeding Wall!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Be NPC or DIE!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Be a Pickaxe")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("BedWars")
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Bee Swarm Simulator")
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Better Song?")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Bitcoin Miner")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Blackhawk Rescue Mission 5")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Blade Ball")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Blades & Buffoonery")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Blox Fruits")
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Blox Hunt")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Blocks n' Props")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("BlockSpin")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Block Tales")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Blue Lock: Rivals")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Booga Booga")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Boxing Beta")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Boxing League")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Brainrot Evolution")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Brainrot.io")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Break 1 Car Every Click")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Break In [Story]")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Break In 2 [Story]")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Breaking Point")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Bridge Duel")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Broken Bones IV")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Brookhaven RP")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Build A Boat For Treasure")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Build An Island")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Build To Survive")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Building Architect")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Busy Business!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Bubble Gum Simulator INFINITY")
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Climb And Slide")
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Cali Shootout")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Capybara Evolution")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Car Crushers 2")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Car Dealership Tycoon")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Car Training")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Cabin Crew Simulator")
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Cart Ride Fun")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Casual Stock")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Catalog Avatar Creator")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Catch and Feed a Brainrot")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Chained [2 Player Obby]")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Character RNG")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Cheese Escape")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("City Defense Tycoon")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Climb 1000 Stairs")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Climb and Jump Tower")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Color Block")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Color Or Die")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Combat Warriors")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Counter Blox")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("CraftBlocks")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Creature Chaos")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Creatures of Sonaria")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("CRIMINAL VS. SWAT")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Criminal Tycoon")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Criminality")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Cursed Arena")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Cursed Islands")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Don't Press The Button 4")
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("DIG")
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Dangerous Night")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Da Hood")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Dandy's World")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Dead Defense")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Dead Planets")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Dead Rails")
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Dead Rivers")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Dead Spells")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Death Ball")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Death Penalty")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Decaying Winter")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Defusal FPS")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Demonfall")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Desert Detectors")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Destroy Grandma")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Destruction Simulator")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Devas Of Creation")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Dig it")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Dig the Backyard")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Dig to Earth's CORE!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Dingus")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("DOORS")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Domino Playground")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Drill Digging Simulator")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Driving Empire")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Dress To Impress")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Duck Army!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Dungeon Heroes")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Dungeon Quest")
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("ENTRENCHED WW1")
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Eat The World")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Easy Obby")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Effortless Tower")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Elemental Battlegrounds")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Elemental Powers Tycoon")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Fisch")
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Fish It!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Find Buttons!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Find The Markers")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Fight In A School")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Fire Force: Reignition")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Fishing Simulator")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Flag Wars")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Flee The Facility")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Fling Things And People")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Football Fusion 2")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Forsaken")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("FRONTLINES")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Funky Friday")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("GO FISHING")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("GEF")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Game Store Tycoon")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Grace")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Grand Piece Online")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Greenville")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Grow A Garden")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Garden Tower Defense")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Grow a Business")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Grow a Fish Pond")
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Grow Crystals!")
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Guts & Blackpowder")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Gym League")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Gym Star Simulator")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Gun Grounds FFA")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Gunfight Arena")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Giant Survival!")
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Gojo Vs Toji Ability Test")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Goal Kick Simulator")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Hypershot")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Hunty Zombie")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Hide and Seek Extreme")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Hide or Die")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Hoopz")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Horrific Housing")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Hunting Season")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("IQ Test")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Ice Tycoon")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Impossible Squid Game! Glass Bridge 2")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("IMPOSSIBLE OBBY")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("INK Game")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Infectious Smile")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Insane Elevator!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Isle")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("item asylum")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Jailbird")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Jailbreak")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Jujutsu Infinite")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Jujutsu Shenanigans")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Jurassic Blocky")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Kayak Racing")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("KAT")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("KJ Arena")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Kaizen Battlegrounds")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Karate!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("King Legacy")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("LifeTogether RP")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Launch Into Space Simulator")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Legends Of Speed")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Liar's Club")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Lick Simulator")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Light Game")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Lifting Legends Simulator")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Lifting Simulator")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Longest Bridge Simulator")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Lost Souls")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Lootify")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("LUCKY BLOCKS Battlegrounds")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Lumber Tycoon 2")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Livetopia")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("MeepCity")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("MIC UP")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Mad City")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Magic RNG")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Mansion Tycoon")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Maple Hospital")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Math Murder")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Mega Easy Obby")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Mega Mansion Tycoon")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Meme Fruits")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Merge Toy")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Merge for DIAMONDS!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Merge for SPEED!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Millionare Empire Tycoon")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Mines")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("MINGLE")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Midnight Chasers: Highway Racing")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Motercycle Training")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("MotoRush!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Murder Mystery 2")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Murderers VS Sheriffs Duels")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Murderers vs Sheriffs 2")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Muscle Legends")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("My Resturaunt!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("My Singing Brainrot")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Natural Disaster Survival")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Naval Warfare")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Ninja Legends")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Ninja Time")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("No-Scope Arcade")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Noobs Must Die")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Ohio.")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Obby But You Have Bones")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Obby Creator")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("ONE FRUIT")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Outlaster")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Protect The House From Monsters")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Pure Soccer")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Prospecting!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("PETAPETA")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("PETS GO!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("PLS Donate")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Pass The Bomb!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Paper Plane Simulator")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Pet Simulator 99!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Pet Story")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Phantom Forces")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Piggy")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Pizzeria Tycoon 2")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Plane Crazy")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Pressure")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Pressure Wash Simulator")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Prison Life")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Prison Pump")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Project Delta")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Project Egoist")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Project Slayers")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Pull A Sword")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Quiet Or Die!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Roblox Talent Show")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("RoCitizens")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("RIVALS")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("RNG Odyssey")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("RORVIK")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Race Clicker")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Ragdoll Engine")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Rainbow Friends")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Raise A Floppa 2")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Randomizer")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Real Futbol 24")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Realistic Street Soccer")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Rebirth Champions X")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Rebirth Champions: Ultimate")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Reborn As Swordsman")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Red Light Green Light")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Red VS Blue Plane Wars")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Realm Rampage")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Resturaunt Tycoon 2 & Resturaunt Tycoon 3")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Rob The Place")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Roblox Titanic")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Ro-Ghoul")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Rope Battles")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Rope Swing Obby")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Roller Training")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("SCP: Roleplay")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("SEIZE")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("SPECTER")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Saber Training Simulator")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Scary Hide & Seek")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Scary Sushi")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Scuba Diving at Quill Lake")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Scythe Simulator")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Hoopz")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Secret Staycation")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Sell Water to RULE THE WORLD")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("SharkBite 2")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Shrimp Game")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Sisyphus Training")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Skinwalkers")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Skateboard Obby")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("SkyWars")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Slap Battles")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Slap Tower")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Sol's RNG")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Sonic Speed Simulator")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Sorcerer Battlegrounds")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("South Bronx: The Trenches")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Spelling Bee!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Spider")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("SpongeBob Tower Defense")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Squid Game Season 2")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Squid Game X")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("StandBlox Remade : Standoff 2")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Starving Artists [DONATION GAME]")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("State of Anarchy")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Steal A Brainrot")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Steal A Fish!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Steal A Garden")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Steal A Meme")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Steal A Country")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Steal A K-Pop Demon Hunter")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Street Life Remastered")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Streetz War 2")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Strucid")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Super League Soccer!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Super Power League")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Survive Overnight in a Mega Store")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Survive The Killer!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Survive and Kill Killers in Area 51")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Survival Odyssey")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Swim League")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("TYPE://SOUL")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("The $1,000,000 Jump Rope")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("THA BRONX 3")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("TPS Street Soccer")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("TPS Ultimate Soccer")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Taxi Boss")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Teamwork Puzzles")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Teamwork Puzzles 2")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("The Chosen One")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("The Dropper")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("The Floor Is LAVA!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("The Ride")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("The Rake REMASTERED")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("The Storage")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("The Strongest Battlegrounds")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("The Survival Game")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("The Troll Tower")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("The Wild West 4.0")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Therapy")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Themepark Tycoon 2")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Timber 2!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Together")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Total Roblox Drama")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Touch Football")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Tower of Hell")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Tower of Jump")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Trench War")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Triathlon Star Simulator")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Trident Survival")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Troll Button Tower")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Troll Button Tower 2")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Troll Dancing Tower")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Troll IQ Tower")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Troll Is A Pinning Tower")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Troll Players Tower")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Troll Slapping Tower")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Troll X Tower")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Tsunami Game")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Twilight Daycare!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Typical Colors 2")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Underground War 2.0")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Unnamed Shooter")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("untitled boxing game")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("untitled drill game")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("untitled tag game")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Vehicle Legends!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Verse Pierce")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Volleyball Legends")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("void fishing")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Wall Hop Practice")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("War Engines 0.6")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("War Machines")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("War Tycoon")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Weak Legacy 2")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Welcome to Bloxburg")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Westbound")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Wild Horse Islands")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Wild Rails Tower Defense")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Wizard West")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Word Bomb")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Work at a Pizza Place")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Yeet A Friend!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("YouTube Simulator Z")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Your Bizarre Adventure")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Youtuber Tycoon!")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Zombie Attack")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("Zombie Uprising")
+
+
+
+Tab:CreateDivider()
+
+Tab:CreateSection("ZO SAMURAI SWORD FIGHTING")
